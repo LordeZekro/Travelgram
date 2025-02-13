@@ -9,17 +9,14 @@ nav {
   padding-block: 20px;
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
   align-items: center;
-  
+
+  gap: 24px;
 }
 
 nav ul li:last-child img {
   width: 40px;
-}
-
-#lupa:hover{
-fill: aqua;
 }
