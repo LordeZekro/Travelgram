@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  padding: 20px 32px 20px 32px;
+  gap: 24px;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  justify-content: center;
+  margin: auto;
+}
+main img {
+  width: 286px;
+  height: 286px;
+  object-fit: cover;
+}
+
+main img:hover{
+  transition: 300ms;
+  border: 3px solid white;
+}

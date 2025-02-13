@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-b">
   <head>
-    <!-- Pré conecta fonte poppins -->
+    <!-- Pré conecta fonte Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
@@ -9,9 +9,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/index.css" />
 
-    <!-- Realiza conexão com google fonts para trazer poppins -->
+    <!-- Realiza conexão com Google Fonts para trazer Poppins -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
       rel="stylesheet"
     />
 
@@ -19,62 +19,105 @@
   </head>
   <body>
     <div class="page">
-      <!-- Menu superior -->
       <div class="surfaceColor">
-      <nav class="container">
-        <!-- logo -->
-        <a href="#" id="logo">
-          <img src="./assets/Logo.svg" alt="logotipo Travelgram" />
-        </a>
+        <!-- 
+        Menu superior -->
+        <nav class="container">
+          <!-- logo -->
+          <a href="#" id="logo">
+            <img src="./assets/Logo.svg" alt="logotipo Travelgram" />
+          </a>
 
-        <!-- botões do menu -->
-        <ul id="primaryMenu">
-          <li>
-            <a href="#">
-              <svg
-                id="lupa"
-                
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 256 256"
-              >
-                <path
-                  d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
-                ></path>
-              </svg>
-            </a>
-          </li>
+          <!-- botões do menu -->
+          <ul id="primaryMenu">
+            <li>
+              <a href="#">
+                <svg
+                  id="lupa"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 256 256"
+                >
+                  <path
+                    d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                  ></path>
+                </svg>
+              </a>
+            </li>
 
-          <li><a href="#">Explorar</a></li>
-          <li><a href="#">Minhas Viagens</a></li>
-          <li>
-            <a href="#"
-              ><img
-                src="./assets/Profile pic.png"
-                alt="Imagem de Perfil - Isabela Torres"
-            /></a>
-          </li>
-        </ul>
-      </nav>
+            <li><a href="#">Explorar</a></li>
+            <li><a href="#">Minhas Viagens</a></li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/Profile pic.png"
+                  alt="Imagem de Perfil - Isabela Torres"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- Perfil -->
+        <header>
+          <div class="container">
+            <!-- Foto da Pessoa -->
+            <div id="profile">
+              <img src="./assets/Profile pic.png" alt="" />
+
+              <div>
+                <h1>Isabela Torres</h1>
+                <p>
+                  Amante de viagens, cultura e gastronomia. 🌍✈️ Aqui
+                  compartilho as histórias registradas em cada clique,
+                  explorando cantinhos fascinantes do nosso planeta a partir da
+                  movimentada cidade de São Paulo. 🏙️📸
+                </p>
+              </div>
+            </div>
+
+            <ul>
+              <li>
+                <img src="./assets/icons/MapPin.svg" alt="" />
+                <span>São Paulo, Brasil</span>
+              </li>
+              <li>
+                <img src="assets/icons/AirplaneTilt.svg" alt="" />
+                <span>37 países</span>
+              </li>
+              <li>
+                <img src="./assets/icons/Image.svg" alt="" />
+                <span>240 fotos</span>
+              </li>
+            </ul>
+            <!-- Nome -->
+          </div>
+        </header>
+
+        <!-- Galeria com as fotos -->
       </div>
-      <!-- Perfil -->
-      <section class="about">
-        <div class="main">
-          
-          <!-- Foto da Pessoa -->
-          <img class="mainPhoto" src="#" alt="" />
-         
-          <!-- Nome -->
-          <h2 class="name"></h2>
-          <p class="bio"></p>
-        </div>
-        <div class="info"></div>
-      </section>
-
-      <!-- Galeria com as fotos -->
-      <section class="gallery"></section>
+      <main >
+        <img src="./assets/images/Image 01.png" alt="" />
+        <img src="./assets/images/Image 02.png" alt="" />
+        <img src="./assets/images/Image 03.png" alt="" />
+        <img src="./assets/images/Image 04.png" alt="" />
+        <img src="./assets/images/Image 05.png" alt="" />
+        <img src="./assets/images/Image 06.png" alt="" />
+        <img src="./assets/images/Image 07.png" alt="" />
+        <img src="./assets/images/Image 08.png" alt="" />
+        <img src="./assets/images/Image 09.png" alt="" />
+        <img src="./assets/images/Image 10.png" alt="" />
+        <img src="./assets/images/Image 11.png" alt="" />
+        <img src="./assets/images/Image 12.png" alt="" />
+      </main>
     </div>
+    <footer class="container">
+      <a href="#">Travelgram © 2024</a>
+      <ul>
+        <li><a href="">Termos de uso
+        </a></li>
+        <li><a href="#">Política de privacidade</a></li>
+      </ul>
+    </footer>
   </body>
-  <footer></footer>
 </html>
